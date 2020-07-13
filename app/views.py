@@ -1,6 +1,7 @@
 from .headers import *
 import cv2
 
+
 # PRevents the application from caching the inputs to the browser
 @app.after_request
 def add_header(r):
